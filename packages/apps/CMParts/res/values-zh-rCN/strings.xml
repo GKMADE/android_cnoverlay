@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Generic -->
     <string name="app_name">CM 设置</string>
@@ -542,7 +541,7 @@
     <string name="gestures_flashlight">手电筒</string>
     <string name="pref_lockscreen_disable_unlock_tab">禁用解锁滑块</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">注意：在此选项可用前您需要启用轨迹球、菜单键或手势解锁</string>
-    <string name="gestures_explain_create_screen">选择一个动作来执行(或选择解锁或声音)并在屏幕上画一个手势。</string>
+    <string name="gestures_action_label">动作：</string>
     <string name="gestures_draw_label">手势：</string>
     <string name="gestures_draw_for_label">“<xliff:g id="action">%s</xliff:g>”的手势：</string>
     <string name="gestures_already_present">警告：一个相似的手势会关联到另一个动作！</string>
