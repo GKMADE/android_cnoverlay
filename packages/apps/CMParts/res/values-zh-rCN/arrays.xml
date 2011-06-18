@@ -316,4 +316,12 @@
         <item>音量增大</item>
         <item>音量减小</item>
     </string-array>
+
+<string-array name="entries_long_press_menu">
+        <item>无</item>
+        <item>软键盘</item>
+        <item>搜索键</item>
+        <item>自定义程序</item>
+        <item>切换状态栏</item>
+    </string-array>
 </resources>

@@ -85,6 +85,7 @@
     <string name="tablet_soft_buttons_quick_na_title">快捷通知</string>
     <!-- User interface : Rotation -->
     <string name="rotation_category_title">自动旋转允许角度</string>
+    <string name="pref_rotation_0_title">0 度</string>
     <string name="pref_rotation_90_title">90 度</string>
     <string name="pref_rotation_180_title">180 度</string>
     <string name="pref_rotation_270_title">270 度</string>
@@ -248,6 +249,14 @@
     <string name="pref_input_custom_search_app_activity_title">自定义程序</string>
     <string name="pref_input_custom_long_search_app_toggle_title">长按搜索键</string>
     <string name="pref_input_custom_long_search_app_toggle_summary">当长按搜索键时启动自定义程序</string>
+
+    <!-- Long Press Menu -->
+    <string name="long_press_menu_title">长按 Menu 键设置</string>
+    <string name="long_press_menu_summary">自定义长按Menu键的作用</string>
+    <string name="pref_user_defined_long_press_menu_title">选择自定义程序</string>
+    <string name="pref_long_press_menu_title">选择行为</string>
+    <string name="pref_long_press_menu_summary">自定义Menu长按</string>
+
 
     <!-- Long Press Home -->
     <string name="recent_apps_show_title">显示最近打开程序名称</string>

@@ -743,6 +743,8 @@
     <string name="set_force_touch_sum">强制在通话中使用触摸键盘无论是否有近距传感器.</string>
     <string name="rotate_incall">开启屏幕旋转</string>
     <string name="rotate_incall_sum">允许当位置变化时来电屏幕旋转</string>
+    <string name="bg_incall">背景来电</string>
+    <string name="bg_incall_sum">当屏幕开启时来电不显示通话界面，只显示通知和播放铃声</string>
     <string name="phone_number_label">我的手机号码</string>
     <string name="phone_number_summary">为这部手机设置号码</string>
     <!-- TrackBall Answer - Added by Nushio -->
@@ -762,6 +764,10 @@
        <item>单击挂断</item>
        <item>单击挂断</item>    
     </string-array> 
+
+   <!-- Hide Hold button - Added by leinardi -->
+    <string name="hide_hold_button">隐藏保持按钮</string>
+    <string name="hide_hold_button_sum">在通话中不显示通话保持按钮</string>
 
     <!-- Phone goggles -->
     <string name="toast_phone_goggles">现在无法拨打电话，请稍后再试.</string>
