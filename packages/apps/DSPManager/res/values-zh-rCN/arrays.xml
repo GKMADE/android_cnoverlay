@@ -16,4 +16,13 @@
         <item>中等</item>
         <item>极致</item>
     </string-array>
+  <string-array name="equalizer_loudness_modes">
+      <item>禁用</item>
+      <item>最弱</item>
+      <item>较弱</item>
+      <item>弱化</item>
+      <item>强化</item>
+      <item>较强</item>
+      <item>最强</item>
+  </string-array>
 </resources>
