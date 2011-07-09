@@ -61,6 +61,12 @@
         <item>优化颜色 (N1) 冷色</item>
     </string-array>
 
+    <string-array name="haptic_feedback_entries">
+        <item>全局设置</item>
+        <item>开启</item>
+        <item>关闭</item>
+    </string-array>
+
     <string-array name="entries_trackball_colors">
         <item>绿色</item>
         <item>白色</item>
@@ -197,10 +203,10 @@
    <!-- skipping untranslatable /resources:0/string-array:name=values_sound_limitvol -->
 
    <string-array name="entries_brightness_widget" formatted="false">
-        <item>自动/暗淡/40%/100%</item>
-        <item>自动/暗淡/25%/50%/75%/100%</item>
+        <item>自动/最暗/40%/100%</item>
+        <item>自动/最暗/25%/50%/75%/100%</item>
         <item>自动/25%/100%</item>
-        <item>暗淡/100%</item>
+        <item>最暗/100%</item>
     </string-array>
 
    <!-- skipping untranslatable /resources:0/string-array:name=values_brightness_widget -->

@@ -372,6 +372,11 @@
     <string name="pref_render_effect_title">渲染效果</string>
     <string name="pref_render_effect_summary">选择描绘屏幕图像时所使用的颜色系 (有可能降低耗电量)</string>
 
+ <!-- UI Settings : Haptic feedback -->
+    <string name="expanded_haptic_feedback_title">触觉反馈</string>
+    <string name="expanded_haptic_feedback_summary">开启或关闭触觉反馈.</string>
+
+
     <string name="widget_name">渲染效果桌面部件</string>
     <string name="renderfx_temp">渲染效果</string>
     <string name="prefs_render_effect">渲染效果</string>
