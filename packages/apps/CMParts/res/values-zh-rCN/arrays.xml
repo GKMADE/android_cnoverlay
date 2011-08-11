@@ -330,4 +330,9 @@
         <item>自定义程序</item>
         <item>切换状态栏</item>
     </string-array>
+
+<string-array name="pref_lockscreen_background_entries">
+        <item>设置颜色</item>
+        <item>设置图像</item>
+    </string-array>
 </resources>

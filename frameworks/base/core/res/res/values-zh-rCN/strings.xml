@@ -291,6 +291,11 @@
     <string name="permdesc_movePackage" msgid="6323049291923925277">"允许应用程序在内部介质和外部介质之间移动应用程序资源。"</string>
     <string name="permlab_readLogs" msgid="6615778543198967614">"查阅敏感日志数据"</string>
     <string name="permdesc_readLogs" msgid="8896449437464867766">"允许应用程序从系统的各个日志文件中读取信息。这样，应用程序就可以发现关于您手机使用情况的一般信息，其中可能包含个人信息或私密信息。"</string>
+    <string name="permlab_preventpower">阻止电源键</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want t
+o allow the application to do this. -->
+    <string name="permdesc_preventpower">允许应用程序替换电源键作用</string>
+
     <string name="permlab_diagnostic" msgid="8076743953908000342">"读取/写入诊断所拥有的资源"</string>
     <string name="permdesc_diagnostic" msgid="3121238373951637049">"允许应用程序读取/写入诊断组所拥有的任何资源（例如，/dev 中的文件）。这可能会影响系统稳定性和安全性。此权限仅供制造商或运营商诊断硬件问题。"</string>
     <string name="permlab_changeComponentState" msgid="79425198834329406">"启用或停用应用程序组件"</string>

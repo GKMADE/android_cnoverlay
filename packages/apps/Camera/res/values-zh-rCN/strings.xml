@@ -100,6 +100,12 @@
     <string name="pref_camera_search_shutter">搜索键</string>
     <string name="pref_camera_search_shutter_summary">按搜索键拍照</string>
 
+    <!-- More Settings screen, power button title -->
+    <string name="pref_camera_power_shutter_title">电源键快门</string>
+
+    <!-- More Settings screen, power button -->
+    <string name="pref_camera_power_shutter">电源键</string>
+    <string name="pref_camera_power_shutter_summary">按电源键拍照摄像</string>
     <!-- Settings screen, custom focus title -->
     <string name="pref_camera_settings_focus_title">对焦</string>
 

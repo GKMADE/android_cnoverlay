@@ -100,6 +100,14 @@
     <string name="ui_status_bar_cm_battery_summary">在小电池图标上显示电量百分比。如果主题破坏了外观则禁用它</string>
     <string name="ui_status_bar_compact_carrier_title">缩小显示运营商</string>
     <string name="ui_status_bar_compact_carrier_summary">在通知栏下拉布局中缩小显示运营商，这样电源控件看起来更好.</string>
+    <string name="ui_status_bar_carrier_label_title">运营商显示</string>
+    <string name="ui_status_bar_carrier_label_summary">更改运营商显示信息</string>
+    <string name="ui_status_bar_carrier_label_use_default">默认</string>
+    <string name="ui_status_bar_carrier_label_use_spn">显示SPN</string>
+    <string name="ui_status_bar_carrier_label_use_plmn">显示PLMN</string>
+    <string name="ui_status_bar_carrier_label_use_custom">自定义文字</string>
+    <string name="ui_status_bar_carrier_label_custom_title">自定义运营商</string>
+    <string name="ui_status_bar_carrier_label_custom_summary">用来替换运营商的文字</string>
     <string name="ui_status_bar_toggle_brightness">通知栏亮度控制</string>
     <string name="ui_status_bar_toggle_brightness_summary">允许在通知栏上滑动来调整亮度</string>
     <string name="ui_status_bar_toggle_info">自动亮度已开启</string>
@@ -179,6 +187,8 @@
     <string name="notification_battery_warning">测试显示本功能会每小时增加 3% 左右的耗电量。如果你发现在轨迹球闪动时耗电量有所增加，应该是本功能所导致的。如果您不想增加耗电量，请不要开启本功能。</string>
 
     <!-- Lockscreen Overview -->
+    <string name="pref_lockscreen_disable_on_security_title">禁用锁屏</string>
+    <string name="pref_lockscreen_disable_on_security_summary">如果启用了屏幕解锁保护（图案，PIN，密码）时禁用锁屏</string>
     <string name="pref_lockscreen_stylecfg_title">风格选项</string>
     <string name="pref_lockscreen_stylecfg_summary">配置锁屏风格和相应的设置</string>
     <string name="pref_lockscreen_widgets_title">小工具选项</string>
@@ -217,6 +227,9 @@
     <string name="pref_lockscreen_custom_app_toggle_title">自定义程序启动</string>
     <string name="pref_lockscreen_custom_app_toggle_summary">在滑动风格时显示第二个滑动条，在旋转风格时显示自定义程序按键</string>
     <string name="pref_lockscreen_custom_app_activity_title">自定义程序</string>
+    <string name="pref_lockscreen_custom_background_title">选择背景</string>
+    <string name="pref_lockscreen_custom_background_dialog_title">选择背景</string>
+    <string name="pref_lockscreen_custom_background_summary">选择图片或者颜色作为锁屏背景</string>
     <string name="pref_lockscreen_custom_icon_style_title">自定义程序消息图标</string>
     <string name="pref_lockscreen_custom_icon_style_summary">为自定义程序使用消息图标代替 CM 图标</string>
     <string name="pref_lockscreen_rotary_unlock_down_title">下拉解锁</string>
@@ -346,7 +359,7 @@
     <string name="pref_lock_mms_summary">可以防止在内存不足的情况下丢失消息</string>
 
     <!-- Performance Settings : Warning dialog -->
-    <string name="performance_settings_warning_title">警告：前面有怪兽！</string>
+    <string name="performance_settings_warning_title">警告！</string>
     <string name="performance_settings_warning">这里的选项会改变系统的性能，这可能意味着会变得更差。它们只作实验用途，如果您更改过这里的设置，请不要向我们提交 bug 报告。</string>
 
     <!-- Application Settings -->
@@ -373,8 +386,8 @@
     <string name="pref_render_effect_summary">选择描绘屏幕图像时所使用的颜色系 (有可能降低耗电量)</string>
 
  <!-- UI Settings : Haptic feedback -->
-    <string name="expanded_haptic_feedback_title">触觉反馈</string>
-    <string name="expanded_haptic_feedback_summary">开启或关闭触觉反馈.</string>
+    <string name="expanded_haptic_feedback_title">震动设置</string>
+    <string name="expanded_haptic_feedback_summary">切换声音时是否改变震动设置.</string>
 
 
     <string name="widget_name">渲染效果桌面部件</string>
