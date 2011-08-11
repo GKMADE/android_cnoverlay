@@ -111,6 +111,12 @@
     <string name="ui_status_bar_toggle_brightness">通知栏亮度控制</string>
     <string name="ui_status_bar_toggle_brightness_summary">允许在通知栏上滑动来调整亮度</string>
     <string name="ui_status_bar_toggle_info">自动亮度已开启</string>
+    
+    <string name="ui_status_bar_cm_signal_text_title">调整信号显示</string>
+    <string name="ui_status_bar_cm_signal_text_summary">设置显示信号的dBm数值或条状图示</string>
+    <string name="ui_status_bar_cm_signal_text_show_bars">条状图示</string>
+    <string name="ui_status_bar_cm_signal_text_show_text">信号文字</string>
+    <string name="ui_status_bar_cm_signal_text_show_text_dbm">信号文字+dBm</string>
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">LED 通知</string>
     <string name="trackball_summary">控制轨迹球和 LED 通知的颜色和闪烁频率</string>
@@ -130,12 +136,22 @@
     <!-- User interface : Lock Screen -->
     <string name="ui_lockscreen_title">锁屏设置</string>
     <string name="pref_lockscreen_delay_title">延迟</string>
-    <string name="pref_lockscreen_timeout_lock_delay">屏幕自动休眠时的延迟</string>
-    <string name="pref_lockscreen_screenoff_lock_delay">屏幕手动关闭时的延迟</string>
-    <string name="pref_lockscreen_timeout_lock_delay_summary">当屏幕超时自动休眠时，延迟多长时间后启用锁屏</string>
-    <string name="pref_lockscreen_screenoff_lock_delay_summary">当手动关闭屏幕时，延迟多长时间后启用锁屏</string>
-    <string name="pref_in_call_style_title">来电样式</string>
-    <string name="pref_in_call_style_summary">选择喜欢的来电接受/拒绝的部件样式</string>
+    <string name="pref_lockscreen_security_title">安全锁</string>
+    <string name="pref_lockscreen_security_delay_note_title">注意</string>
+    <string name="pref_lockscreen_security_delay_note_summary">当停用屏幕解锁保护时使用的将会是延迟时间</string>
+    <string name="pref_lockscreen_security_timeout_lock_delay">屏幕超时延迟</string>
+    <string name="pref_lockscreen_security_screenoff_lock_delay">屏幕关闭延迟</string>
+    <string name="pref_lockscreen_security_timeout_lock_delay_summary">屏幕超时后延迟多久才启用屏幕解锁保护</string>
+    <string name="pref_lockscreen_security_screenoff_lock_delay_summary">屏幕关闭后延迟多久才启用屏幕解锁保护</string>
+    <string name="pref_lockscreen_slide_title">滑动锁定</string>
+    <string name="pref_lockscreen_slide_delay_note_title">注意</string>
+    <string name="pref_lockscreen_slide_delay_note_summary">即时这里启用了，屏幕解锁保护的延迟时间也必须比滑动解锁延迟的时间长，滑动解锁屏幕才会被显示出来</string>
+    <string name="pref_lockscreen_slide_delay_title">开启滑动解锁延迟</string>
+    <string name="pref_lockscreen_slide_delay_summary">以另外的延迟时间显示滑动解锁屏幕，然后才显示屏幕解锁保护</string>
+    <string name="pref_lockscreen_slide_timeout_lock_delay">屏幕超时延迟</string>
+    <string name="pref_lockscreen_slide_screenoff_lock_delay">屏幕关闭延迟</string>
+    <string name="pref_lockscreen_slide_timeout_lock_delay_summary">屏幕超时后延迟多久才启用滑动解锁屏幕</string>
+    <string name="pref_lockscreen_slide_screenoff_lock_delay_summary">屏幕关闭后延迟多久才启用滑动解锁屏幕</string>
     <!-- Color Picker -->
     <string name="title_color_picker">选择颜色</string>
     <string name="msg_color_picker">点击中间的颜色进行确认。\n点击返回键取消。</string>
@@ -181,6 +197,7 @@
     <string name="trackball_array_error">抱歉，发生了一个数组错误，该应用程序已经被强制列入其他类别。</string>
     <string name="trackball_color_notice_title">注意：</string>
     <string name="trackball_color_notice_summary">并非所有颜色能在所有设备上显示。</string>
+
 
     <!-- Trackball Settings : Warning dialog -->
     <string name="notification_battery_warning_title">警告：可能会增加耗电量</string>
@@ -230,6 +247,11 @@
     <string name="pref_lockscreen_custom_background_title">选择背景</string>
     <string name="pref_lockscreen_custom_background_dialog_title">选择背景</string>
     <string name="pref_lockscreen_custom_background_summary">选择图片或者颜色作为锁屏背景</string>
+    <string name="pref_lockscreen_custom_background_summary_color">当前：填充色彩</string>
+    <string name="pref_lockscreen_custom_background_summary_image">当前：自定义图片</string>
+    <string name="pref_lockscreen_custom_background_summary_default">当前：默认壁纸</string>
+    <string name="pref_lockscreen_background_result_successful">背景已经更改</string>
+    <string name="pref_lockscreen_background_result_not_successful">未更改背景</string>
     <string name="pref_lockscreen_custom_icon_style_title">自定义程序消息图标</string>
     <string name="pref_lockscreen_custom_icon_style_summary">为自定义程序使用消息图标代替 CM 图标</string>
     <string name="pref_lockscreen_rotary_unlock_down_title">下拉解锁</string>
@@ -240,6 +262,8 @@
     <string name="lockscreen_delay_header">延迟和超时</string>
     <string name="pref_lockscreen_style_title">锁屏风格</string>
     <string name="pref_lockscreen_style_summary">选择锁屏风格</string>
+    <string name="pref_in_call_style_title">来电样式</string>
+    <string name="pref_in_call_style_summary">选择喜欢的来电接受/拒绝的部件样式</string>
     <string name="pref_volbtn_music_controls_title">音量键音乐控制</string>
     <string name="pref_volbtn_music_controls_summary">在屏幕关闭时长按音量键寻找音乐曲目</string>
     <string name="pref_cambtn_music_controls_title">照相键音乐控制</string>
@@ -664,3 +688,4 @@
     <string name="perm_enable_warning_message">警告!\n撤销大多数权限将有可能导致应用程序出现故障。如果具有撤销权限强制关闭应用程序，请给予预期的权限或不使用该应用程序。请不要发送错误报告给Cyanogenmod如果具有撤销权限的应用程序不按预期工作！</string>
     <string name="perm_enable_warning_title">请确认?</string>
 </resources>
+

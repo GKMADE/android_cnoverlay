@@ -229,10 +229,10 @@
     <string-array name="entries_ring_widget">
         <item>声音＋震动／仅震动</item>
         <item>仅声音／仅震动</item>
-        <item>仅声音／靜音</item>
-        <item>声音＋震动／仅震动／靜音</item>
+        <item>仅声音／静音</item>
+        <item>声音＋震动／仅震动／静音</item>
         <item>仅声音／仅震动／靜音</item>
-        <item>声音＋震动／仅声音／仅震动／靜音</item>
+        <item>声音＋震动／仅声音／仅震动／静音</item>
     </string-array>
 
     <!-- skipping untranslatable /resources:0/string-array:name=values_ring_widget -->
@@ -275,6 +275,11 @@
     </string-array>
     <!-- skipping untranslatable /resources:0/string-array:name=pref_lockscreen_style_values -->
 
+    <string-array name="pref_lockscreen_background_entries">
+        <item>填充色彩</item>
+        <item>自定义图片</item>
+        <item>默认壁纸</item>
+    </string-array>
     <string-array name="pref_lockscreen_music_headset_entries">
         <item>不显示</item>
         <item>有线耳机</item>
@@ -328,11 +333,8 @@
         <item>软键盘</item>
         <item>搜索键</item>
         <item>自定义程序</item>
-        <item>切换状态栏</item>
+        <item>显示/隐藏通知栏</item>
     </string-array>
 
-<string-array name="pref_lockscreen_background_entries">
-        <item>设置颜色</item>
-        <item>设置图像</item>
-    </string-array>
 </resources>
+
