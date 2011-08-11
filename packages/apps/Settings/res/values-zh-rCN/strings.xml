@@ -1231,6 +1231,7 @@
     <string name="profile_name">情景模式名</string>
     <string name="new_profile_name">&lt;新情景模式&gt;</string>
     <string name="profile_summary">触摸以设置情景模式</string>
+    <string name="profile_statusbar">状态栏指示器</string>
     <string name="profile_appgroup_title">应用程序组：%s</string>
     <string name="profile_appgroups_title">应用程序组</string>
     <string name="profile_volumeoverrides_title">替换音量</string>
