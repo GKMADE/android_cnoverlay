@@ -102,7 +102,6 @@
 
     <!-- More Settings screen, power button title -->
     <string name="pref_camera_power_shutter_title">电源键快门</string>
-
     <!-- More Settings screen, power button -->
     <string name="pref_camera_power_shutter">电源键</string>
     <string name="pref_camera_power_shutter_summary">按电源键拍照摄像</string>
@@ -130,6 +129,7 @@
     <string name="pref_camera_whitebalance_entry_daylight" msgid="2534757270149561027">"日光"</string>
     <string name="pref_camera_whitebalance_entry_fluorescent" msgid="2435332872847454032">"荧光"</string>
     <string name="pref_camera_whitebalance_entry_cloudy" msgid="3531996716997959326">"阴天"</string>
+    <string name="pref_camera_whitebalance_entry_cloudydaylight">"阴天(日光)"</string>
     <string name="pref_camera_coloreffect_title" msgid="4152827686267109207">"色彩效果"</string>
     <string name="pref_camera_coloreffect_entry_none" msgid="4759462740660236565">"无"</string>
     <string name="pref_camera_coloreffect_entry_mono" msgid="9068472385922288418">"单色"</string>
@@ -147,7 +147,6 @@
     <string name="pref_camera_coloreffect_entry_vivid">鲜明效果</string>
     <string name="pref_camera_coloreffect_entry_blue">蓝色效果</string>
     <string name="pref_camera_coloreffect_entry_negative_sepia">怀旧负片</string>
-
     <!-- Settings screen, Multiple levels entries -->
     <string name="pref_camera_sharpness_entry_level0">水平 0</string>
     <string name="pref_camera_sharpness_entry_level1">水平 1</string>
@@ -155,7 +154,6 @@
     <string name="pref_camera_sharpness_entry_level3">水平 3</string>
     <string name="pref_camera_sharpness_entry_level4">水平 4</string>
     <string name="pref_camera_sharpness_entry_level5">水平 5</string>
-
     <!-- Settings screen, Multiple levels entries -->
     <string name="pref_camera_contrast_entry_level0">水平 0</string>
     <string name="pref_camera_contrast_entry_level1">水平 1</string>
@@ -163,8 +161,6 @@
     <string name="pref_camera_contrast_entry_level3">水平 3（默认）</string>
     <string name="pref_camera_contrast_entry_level4">水平 4</string>
     <string name="pref_camera_contrast_entry_level5">水平 5</string>
-
-
     <!-- Settings screen, Multiple levels entries -->
     <string name="pref_camera_saturation_entry_level0">水平 0</string>
     <string name="pref_camera_saturation_entry_level1">水平 1</string>
@@ -172,22 +168,16 @@
     <string name="pref_camera_saturation_entry_level3">水平 3（默认）</string>
     <string name="pref_camera_saturation_entry_level4">水平 4</string>
     <string name="pref_camera_saturation_entry_level5">水平 5</string>
-
     <!-- Default sharpness setting. Do not translate. -->
     <!-- skipping untranslatable /resources:0/string:name=pref_camera_sharpness_default -->
-
     <!-- Settings screen, Select sharpness title -->
     <string name="pref_camera_sharpness_title">锐利</string>
-
     <!-- Default contrast setting. Do not translate. -->
     <!-- skipping untranslatable /resources:0/string:name=pref_camera_contrast_default -->
-
     <!-- Settings screen, Select contrast title -->
     <string name="pref_camera_contrast_title">对比</string>
-
     <!-- Default saturation setting. Do not translate. -->
     <!-- skipping untranslatable /resources:0/string:name=pref_camera_saturation_default -->
-
     <!-- Settings screen, Select saturation title -->
     <string name="pref_camera_saturation_title">饱和</string>
     <string name="pref_camera_scenemode_title" msgid="1420535844292504016">"取景模式"</string>
