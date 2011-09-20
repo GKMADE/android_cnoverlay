@@ -93,6 +93,11 @@
     <string name="pref_camera_vol_zoom">音量按键变焦</string>
     <string name="pref_camera_vol_zoom_summary">增大/减小音量对应对焦放大/缩小</string>
 
+<!-- Other settings -->
+    <string name="pref_camera_other_settings_title">其他设置</string>
+    <string name="pref_camera_timer_duration">定时拍照</string>
+    <string name="pref_camera_timer_duration_summary">选择定时拍照的倒数时间长度</string>
+
     <!-- More Settings screen, search button title -->
     <string name="pref_camera_search_shutter_title">搜索快门</string>
 
@@ -119,6 +124,25 @@
     <string name="pref_camera_focusmode_entry_normal">正常</string>
     <string name="pref_camera_focusmode_entry_infinity" msgid="3413922419264967552">"无限远"</string>
     <string name="pref_camera_focusmode_entry_macro" msgid="4424489110551866161">"微距"</string>
+     <string name="pref_camera_focusmode_entry_touch">触摸</string>
+    <string name="pref_camera_focusmode_entry_fixed">固定</string>
+    <string name="pref_camera_focusmode_entry_facedetect">脸部检测</string>
+
+    <!-- Settings screen, Capture mode title -->
+    <string name="pref_camera_capturemode_title">拍照方式</string>
+
+    <!-- Settings screen, Capture mode dialog radio button choices -->
+    <string name="pref_camera_capturemode_entry_default">立即</string>
+    <string name="pref_camera_capturemode_entry_timer">定时</string>
+
+    <!-- Settings screen, Capture mode dialog entries -->
+    <string name="pref_camera_capturemode_entry_10">10 秒</string>
+    <string name="pref_camera_capturemode_entry_20">20 秒</string>
+    <string name="pref_camera_capturemode_entry_30">30 秒</string>
+    <string name="pref_camera_capturemode_entry_40">40 秒</string>
+    <string name="pref_camera_capturemode_entry_50">50 秒</string>
+    <string name="pref_camera_capturemode_entry_60">60 秒</string>
+
     <string name="pref_camera_flashmode_title" msgid="2287362477238791017">"闪光模式"</string>
     <string name="pref_camera_flashmode_entry_auto" msgid="7288383434237457709">"自动"</string>
     <string name="pref_camera_flashmode_entry_on" msgid="5330043918845197616">"开"</string>

@@ -100,14 +100,6 @@
     <string name="ui_status_bar_cm_battery_summary">在小电池图标上显示电量百分比。如果主题破坏了外观则禁用它</string>
     <string name="ui_status_bar_compact_carrier_title">缩小显示运营商</string>
     <string name="ui_status_bar_compact_carrier_summary">在通知栏下拉布局中缩小显示运营商，这样电源控件看起来更好.</string>
-    <string name="ui_status_bar_carrier_label_title">运营商显示</string>
-    <string name="ui_status_bar_carrier_label_summary">更改运营商显示信息</string>
-    <string name="ui_status_bar_carrier_label_use_default">默认</string>
-    <string name="ui_status_bar_carrier_label_use_spn">显示SPN</string>
-    <string name="ui_status_bar_carrier_label_use_plmn">显示PLMN</string>
-    <string name="ui_status_bar_carrier_label_use_custom">自定义文字</string>
-    <string name="ui_status_bar_carrier_label_custom_title">自定义运营商</string>
-    <string name="ui_status_bar_carrier_label_custom_summary">用来替换运营商的文字</string>
     <string name="ui_status_bar_toggle_brightness">通知栏亮度控制</string>
     <string name="ui_status_bar_toggle_brightness_summary">允许在通知栏上滑动来调整亮度</string>
     <string name="ui_status_bar_toggle_info">自动亮度已开启</string>
@@ -192,9 +184,7 @@
     <string name="trackball_category_add_summary">向类别列表中添加一个新的类别</string>
     <string name="trackball_category_remove_title">删除类别</string>
     <string name="trackball_category_remove_summary">从类别列表中删除一个类别</string>
-    <string name="trackball_remove_default_toast">无法删除默认类别</string>
     <string name="trackball_reset_all">重置所有的颜色与类别设置</string>
-    <string name="trackball_array_error">抱歉，发生了一个数组错误，该应用程序已经被强制列入其他类别。</string>
     <string name="trackball_color_notice_title">注意：</string>
     <string name="trackball_color_notice_summary">并非所有颜色能在所有设备上显示。</string>
 
@@ -390,6 +380,12 @@
     <string name="application_settings_title">应用程序设置</string>
     <string name="application_settings_summary">改变各种应用程序设置，例如安装位置</string>
 
+    <!-- Application Settings : Switch storage mountpoints -->
+    <string name="pref_switch_storage_title">使用内部存储</string>
+    <string name="pref_switch_storage_summary_on">应用程序和媒体使用内部存储</string>
+    <string name="pref_switch_storage_summary_off">应用程序和媒体使用外部存储</string>
+    <string name="pref_storage_switch_unavailable">此设备没有内部存储</string>
+
     <!-- Application Settings : Move any app -->
     <string name="pref_move_all_apps_title">允许移动应用程序</string>
     <string name="pref_move_all_apps_summary">允许将任何应用程序移动到 SD 卡</string>
@@ -582,6 +578,8 @@
     <string name="user_defined_key1">快捷键 1</string>
     <string name="user_defined_key2">快捷键 2</string>
     <string name="user_defined_key3">快捷键 3</string>
+    <string name="user_defined_envelope_key">信封键</string>
+    <string name="user_defined_explorer_key">资源管理键</string>
     <string name="user_defined_not_set">没有设置</string>
 
     <!--  Lockscreen gesture strings -->
