@@ -1234,6 +1234,8 @@
     <string name="profile_statusbar">状态栏指示器</string>
     <string name="profile_appgroup_title">应用程序组：%s</string>
     <string name="profile_appgroups_title">应用程序组</string>
+    <string name="profile_connectionoverrides_title">替换连接</string>
+    <string name="profile_connectionoverrides_summary">轻触以设置连接</string>
     <string name="profile_volumeoverrides_title">替换音量</string>
     <string name="profile_volumeoverrides_summary">轻触以设置音量</string>
     <string name="profile_applist_title">应用程序 - 单击从组中移除</string>

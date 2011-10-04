@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"> 
     <!-- Generic -->
     <string name="app_name">CM 设置</string>
 
@@ -14,7 +14,6 @@
     <string name="input_settings_title_subhead">输入设置</string>
     <string name="input_settings_summary_head">输入行为、按键、振动反馈</string>
     <string name="interface_settings_title_head">界面</string>
-    <string name="interface_settings_title_subhead">界面设置</string>
     <string name="interface_settings_summary_head">界面调整、越界、渲染效果</string>
     <string name="lockscreen_settings_title_head">锁屏</string>
     <string name="lockscreen_settings_title_subhead">锁屏设置</string>
@@ -35,7 +34,6 @@
 
     <!-- User interface -->
     <string name="ui_title">用户界面</string>
-    <string name="ui_summary">用户界面设置与微调</string>
 
     <string name="pref_electron_beam_animation_on">屏幕开启动画</string>
     <string name="pref_electron_beam_animation_off">屏幕关闭动画</string>
@@ -109,12 +107,13 @@
     <string name="ui_status_bar_cm_signal_text_show_bars">条状图示</string>
     <string name="ui_status_bar_cm_signal_text_show_text">信号文字</string>
     <string name="ui_status_bar_cm_signal_text_show_text_dbm">信号文字+dBm</string>
+    <string name="ui_status_bar_headset_title">显示耳机图标</string>
+    <string name="ui_status_bar_headset_summary">当插入耳机时显示耳机图标</string>
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">LED 通知</string>
     <string name="trackball_summary">控制轨迹球和 LED 通知的颜色和闪烁频率</string>
 
     <!-- User interface : WebView -->
-    <string name="ui_webview_title">网页视图</string>
     <string name="pref_pinch_reflow_title">触摸放大后使内容自动换行</string>
     <string name="pref_pinch_reflow_summary">通过多点触摸放大网页后立即使内容按窗口自动换行</string>
 
@@ -126,7 +125,6 @@
     <string name="pref_overscroll_weight_summary">选择越界对象的程度</string>
 
     <!-- User interface : Lock Screen -->
-    <string name="ui_lockscreen_title">锁屏设置</string>
     <string name="pref_lockscreen_delay_title">延迟</string>
     <string name="pref_lockscreen_security_title">安全锁</string>
     <string name="pref_lockscreen_security_delay_note_title">注意</string>
@@ -149,7 +147,6 @@
     <string name="msg_color_picker">点击中间的颜色进行确认。\n点击返回键取消。</string>
 
     <!-- User interface: LED notifications -->
-    <string name="trackball_notifications_title">轨迹球通知颜色</string>
     <string name="dialog_color_trackball">选择颜色</string>
     <string name="dialog_blink_trackball">选择闪烁频率</string>
     <string name="color_trackball_flash_title">闪烁颜色</string>
@@ -188,6 +185,19 @@
     <string name="trackball_color_notice_title">注意：</string>
     <string name="trackball_color_notice_summary">并非所有颜色能在所有设备上显示。</string>
 
+    <!-- Trackball color entries -->
+    <string name="trackball_color_entry_green">绿色</string>
+    <string name="trackball_color_entry_white">白色</string>
+    <string name="trackball_color_entry_red">红色</string>
+    <string name="trackball_color_entry_blue">蓝色</string>
+    <string name="trackball_color_entry_yellow">黄色</string>
+    <string name="trackball_color_entry_cyan">蓝绿色</string>
+    <string name="trackball_color_entry_magenta">紫色</string>
+    <string name="trackball_color_entry_pink">粉色</string>
+    <string name="trackball_color_entry_orange">橙色</string>
+    <string name="trackball_color_entry_light_blue">浅蓝色</string>
+    <string name="trackball_color_entry_random">随机</string>
+    <string name="trackball_color_entry_amber">琥珀</string>
 
     <!-- Trackball Settings : Warning dialog -->
     <string name="notification_battery_warning_title">警告：可能会增加耗电量</string>
@@ -208,9 +218,10 @@
     <string name="pref_lockscreen_timeout_summary">配置屏幕超时时间和屏幕关闭延迟</string>
 
     <!-- Lockscreen Settings -->
-    <string name="lockscreen_settings_title">锁屏设置</string>
     <string name="pref_lockscreen_always_battery_title">总是显示电池状态</string>
     <string name="pref_lockscreen_always_battery_summary">在锁屏画面一直显示电池状态</string>
+    <string name="pref_lockscreen_widgets_layout_title">小工具布局</string>
+    <string name="pref_lockscreen_widgets_layout_summary">切换时钟，日期，运营商，状态布局</string>
     <string name="pref_lockscreen_music_controls_title">锁屏音乐播放控制按钮</string>
     <string name="pref_lockscreen_music_controls_summary">在锁屏画面上显示音乐播放控制按钮</string>
     <string name="pref_lockscreen_now_playing_title">显示歌曲名</string>
@@ -234,6 +245,12 @@
     <string name="pref_lockscreen_custom_app_toggle_title">自定义程序启动</string>
     <string name="pref_lockscreen_custom_app_toggle_summary">在滑动风格时显示第二个滑动条，在旋转风格时显示自定义程序按键</string>
     <string name="pref_lockscreen_custom_app_activity_title">自定义程序</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_title_set">选择使用的快捷方式</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_title_unset">选择不使用的快捷方式</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_cancel">退出</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_add">添加</string>
+    <string name="pref_lockscreen_ring_custom_apps_dialog_remove">移除</string>
+    <string name="pref_lockscreen_ring_custom_apps_notset">不使用</string>
     <string name="pref_lockscreen_custom_background_title">选择背景</string>
     <string name="pref_lockscreen_custom_background_dialog_title">选择背景</string>
     <string name="pref_lockscreen_custom_background_summary">选择图片或者颜色作为锁屏背景</string>
@@ -248,25 +265,31 @@
     <string name="pref_lockscreen_rotary_unlock_down_summary">下拉转轮解锁。向右拉启动自定义程序</string>
     <string name="pref_lockscreen_rotary_hide_arrows_title">隐藏旋转箭头</string>
     <string name="pref_lockscreen_rotary_hide_arrows_summary">在旋转风格时隐藏提示箭头</string>
-    <string name="lockscreen_style_header">风格偏好</string>
-    <string name="lockscreen_delay_header">延迟和超时</string>
     <string name="pref_lockscreen_style_title">锁屏风格</string>
     <string name="pref_lockscreen_style_summary">选择锁屏风格</string>
     <string name="pref_in_call_style_title">来电样式</string>
     <string name="pref_in_call_style_summary">选择喜欢的来电接受/拒绝的部件样式</string>
+    <string name="lockscreen_music_title">音乐控制</string>
     <string name="pref_volbtn_music_controls_title">音量键音乐控制</string>
     <string name="pref_volbtn_music_controls_summary">在屏幕关闭时长按音量键寻找音乐曲目</string>
     <string name="pref_cambtn_music_controls_title">照相键音乐控制</string>
     <string name="pref_cambtn_music_controls_summary">在屏幕关闭时长按照相键切换播放/暂停</string>
     <string name="lockscreen_widgets_note_title">注意</string>
     <string name="lockscreen_widgets_note_summary">选择简约 lense 风格仅显示音乐控制。但以下选项不会取消设置而方便地转换到其它风格。</string>
+    <string name="lockscreen_calendar_title">锁屏日历</string>
+    <string name="pref_lockscreen_calendar_alarm_title">显示日历</string>
+    <string name="pref_lockscreen_calendar_alarm_summary">显示日历的时间及标题</string>
+    <string name="pref_lockscreen_calendars_title">选择日历</string>
+    <string name="pref_lockscreen_calendars_summary">选择你需要显示日程的日历</string>
+    <string name="pref_lockscreen_calendar_reminders_only_title">仅提醒日程</string>
+    <string name="pref_lockscreen_calendar_reminders_only_summary">仅显示设置了提醒的日程</string>
+    <string name="pref_lockscreen_calendar_lookahead_title">日程预览</string>
+    <string name="pref_lockscreen_calendar_lookahead_summary">设置未来多长时间内的日程将被显示</string>
 
     <!-- Input Settings -->
     <string name="input_settings_title">输入设置</string>
-    <string name="input_settings_summary">设备按键行为选项</string>
     <string name="haptic_title">振动反馈微调</string>
     <string name="haptic_summary">调节振动反馈的发生条件和方式</string>
-    <string name="button_settings_title">按键设置</string>
     <string name="long_press_home_title">长按 Home 键设置</string>
     <string name="long_press_home_summary">最近打开的程序数等</string>
     <string name="input_search_key_title">搜索键行为</string>
@@ -278,12 +301,11 @@
     <string name="pref_input_custom_long_search_app_toggle_summary">当长按搜索键时启动自定义程序</string>
 
     <!-- Long Press Menu -->
-    <string name="long_press_menu_title">长按 Menu 键设置</string>
-    <string name="long_press_menu_summary">自定义长按Menu键的作用</string>
-    <string name="pref_user_defined_long_press_menu_title">选择自定义程序</string>
+    <string name="long_press_menu_title">长按菜单键设置</string>
+    <string name="long_press_menu_summary">自定义长按菜单键</string>
+    <string name="pref_user_defined_long_press_menu_title">选择自定义应用程序</string>
     <string name="pref_long_press_menu_title">选择行为</string>
-    <string name="pref_long_press_menu_summary">自定义Menu长按</string>
-
+    <string name="pref_long_press_menu_summary">自定义长按菜单键</string>
 
     <!-- Long Press Home -->
     <string name="recent_apps_show_title">显示最近打开程序名称</string>
@@ -342,7 +364,6 @@
 
     <!-- Performance Settings -->
     <string name="performance_settings_title">性能设置</string>
-    <string name="performance_settings_summary">设备性能调整</string>
 
     <!-- Performance Settings : Compcache -->
     <string name="pref_compcache_title">使用压缩缓存</string>
@@ -378,8 +399,7 @@
 
     <!-- Application Settings -->
     <string name="application_settings_title">应用程序设置</string>
-    <string name="application_settings_summary">改变各种应用程序设置，例如安装位置</string>
-
+ 
     <!-- Application Settings : Switch storage mountpoints -->
     <string name="pref_switch_storage_title">使用内部存储</string>
     <string name="pref_switch_storage_summary_on">应用程序和媒体使用内部存储</string>
@@ -395,6 +415,7 @@
     <string name="pref_install_location_summary">选择新安装程序的安装位置</string>
 
     <string name="general_title">通用设置</string>
+    <string name="camera_title">相机</string>
     <string name="buttons_title">按键</string>
 
     <!-- UI Settings : Power off prompt -->
@@ -484,8 +505,15 @@
     <string name="pref_screentimeout_mode_summary">选择屏幕超时按钮的切换方式</string>
     <string name="pref_ring_mode_title">声音切换模式</string>
     <string name="pref_ring_mode_summary">选择声音按钮的切换方式</string>
+    <string name="cm_sound_mode_soundVib_vib">铃声 + 震动 / 震动</string>
+    <string name="cm_sound_mode_sound_vib">铃声 / 震动</string>
+    <string name="cm_sound_mode_sound_silent">铃声 / 静音</string>
+    <string name="cm_sound_mode_soundVib_vib_silent">铃声 + 震动 / 震动 / 静音</string>
+    <string name="cm_sound_mode_sound_vib_silent">铃声 / 震动 / 震动 / 静音</string>
+    <string name="cm_sound_mode_soundVib_sound_vib_silent">铃声 + 震动 铃声 / 震动 / 震动 / 静音</string>
+    <string name="cm_sound_mode_vib_silent">震动 / 静音</string>
     <string name="pref_flash_mode_title">手电筒切换模式</string>
-    <string name="pref_flash_mode_summary">选择高亮度/死亡射线 (Evo)</string>
+    <string name="pref_flash_mode_summary">选择高亮度/死亡射线</string>
 
     <!-- Backlight -->
     <string name="backlight_title">自动亮度调节</string>
@@ -528,15 +556,18 @@
     <string name="ll_num_levels">设置亮度级别数量</string>
 
     <!-- Sound -->
-    <string name="sound_title">声音设置</string>
-    <string name="sound_summary">声音和音频切入设置</string>
     <string name="sound_notifications_focus_title">通知声音切入</string>
     <string name="sound_notifications_focus_summary">向兼容此功能的程序发送声音切入请求，使其降低音量以便突出播放要切入的声音事件。</string>
     <string name="sound_volume_control_silent_title">静音状态</string>
     <string name="sound_volume_control_silent_summary">添加完整的静音控制状态</string>
-	<string name="sound_vibrate_in_call_title">通话中震动</string>
-    <string name="sound_vibrate_in_call_summary_off">在通话过程中有通知将不振动</string>
-    <string name="sound_vibrate_in_call_summary_on">在通话过程中有通知将照常振动</string>
+    <string name="sound_vibrate_in_call_title">通话中震动</string>
+    <string name="sound_vibrate_in_call_summary_off">在通话过程中有通知将不震动</string>
+    <string name="sound_vibrate_in_call_summary_on">在通话过程中有通知将照常震动</string>
+    <string name="sound_camera_shutter_disable_title">相机快门静音</string>
+    <string name="sound_camera_shutter_disable_summary_on">相机快门声将不会播放</string>
+    <string name="sound_camera_shutter_disable_summary_off">相机快门声将会播放</string>
+    <string name="sound_camera_shutter_disable_warning_title">警告: 这可能是非法的!</string>
+    <string name="sound_camera_shutter_disable_warning">在一些地区禁用相机快门声音是非法的（当然，中国大陆可能不在此列）. 你确定要禁用吗?</string>
     <string name="sound_to_speaker_title">总是通过扬声器播放</string>
     <string name="sound_notifications_title">通知</string>
     <string name="sound_rings_title">铃声</string>
@@ -588,16 +619,12 @@
     <string name="pref_lockscreen_gestures_builder_title">建立手势</string>
     <string name="pref_lockscreen_gestures_sensitivity_title">敏感度</string>
     <string name="pref_lockscreen_gestures_color_title">手势颜色</string>
-    <string name="label_create_gesture">创建一个手势</string>
     <string name="gestures_button_add">添加手势</string>
     <string name="gestures_button_discard">舍弃</string>
     <string name="gestures_button_done">完成</string>
     <string name="gestures_error_missing_shortcut">您必需为这个手势选择一个动作！</string>
-    <string name="gestures_save_success">手势保存到 %s</string>
-    <string name="gestures_cancel_action">取消</string>
     <string name="gestures_loading">载入手势...</string>
     <string name="gestures_empty">没有手势</string>
-    <string name="gestures_activity">手势</string>
     <string name="gestures_delete">删除</string>
     <string name="gestures_delete_success">手势已删除</string>
     <string name="gestures_error_loading">手势文件操作发生问题。</string>
@@ -635,8 +662,6 @@
     <string name="title_phone_goggles_start">开始电话 goggles 模式</string>
     <string name="title_phone_goggles_end">结束电话 goggles 模式</string>
     <string name="title_phone_goggles_confirmation_enabled">请求确认</string>
-    <string name="title_phone_goggles_phone_enabled">电话</string>
-    <string name="title_phone_goggles_sms_enabled">短信</string>
     <string name="title_phone_goggles_maths_level">数量级别</string>
     <string name="title_phone_goggles_work_filtered">工作</string>
     <string name="title_phone_goggles_mobile_filtered">移动</string>

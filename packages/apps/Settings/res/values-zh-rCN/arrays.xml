@@ -176,6 +176,12 @@
     <item>关闭</item>
     <item>保持原有设置</item>
   </string-array>
+
+  <string-array name="profile_connection_entries">
+        <item>关闭</item>
+        <item>开启</item>
+    </string-array>
+
   <string-array name="backgroundWidget">
     <item>灰色</item>
     <item>透明</item>

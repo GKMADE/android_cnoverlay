@@ -245,7 +245,7 @@
     <!-- skipping untranslatable /resources:0/string-array:name=values_flash_widget -->
 
     <string-array name="pref_lockscreen_gestures_sensitivity_entries">
-        <item>1（最宽松）</item>
+        <item>1 (最宽松)</item>
         <item>2</item>
         <item>3</item>
         <item>4</item>
@@ -256,7 +256,7 @@
         <item>9</item>
         <item>10</item>
         <item>11</item>
-        <item>12（最严格）</item>
+        <item>12 (最严格)</item>
     </string-array>
 
     <!-- skipping untranslatable /resources:0/string-array:name=pref_lockscreen_gestures_sensitivity_values -->
@@ -265,13 +265,15 @@
         <item>滑动</item>
         <item>拨轮</item>
         <item>拨轮（改）</item>
-        <item>透明板</item>
+        <item>镜面</item>
+        <item>环</item>
     </string-array>
 
     <string-array name="pref_in_call_style_entries">
         <item>滑动</item>
         <item>拨轮</item>
         <item>拨轮（改）</item>
+        <item>环</item>
     </string-array>
     <!-- skipping untranslatable /resources:0/string-array:name=pref_lockscreen_style_values -->
 
@@ -280,11 +282,27 @@
         <item>自定义图片</item>
         <item>默认壁纸</item>
     </string-array>
+
+    <string-array name="pref_lockscreen_widget_layout_entries">
+        <item>默认（居左）</item>
+        <item>隐藏</item>
+        <item>居中</item>
+    </string-array>
+
     <string-array name="pref_lockscreen_music_headset_entries">
-        <item>不显示</item>
+        <item>禁用</item>
         <item>有线耳机</item>
         <item>蓝牙耳机</item>
         <item>均显示</item>
+    </string-array>
+
+   <string-array name="pref_lockscreen_calendar_lookahead_entries">
+        <item>3 小时</item>
+        <item>6 小时</item>
+        <item>12 小时</item>
+        <item>1 天</item>
+        <item>3 天</item>
+        <item>1 周</item>
     </string-array>
 
     <!-- skipping untranslatable /resources:0/string-array:name=pref_lockscreen_music_headset_values -->
